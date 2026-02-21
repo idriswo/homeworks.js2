@@ -1,0 +1,59 @@
+th,td{
+    border: 1px solid gray;
+    padding: 15px 25px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    text-align: start;
+}
+.inp1{
+    padding: 8px 15px;
+    border-radius: 5px 0px 5px 0px;
+    width: 90%;
+}
+.formadd{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    width: 350px;
+}
+.addDialog,.editDialog{
+    margin-left: 1000px;
+}
+
+.openDialog{
+    font-size: 18px;
+    padding: 7px 15px;
+    border-radius: 10px;border: none;
+    background-color: rgb(6, 6, 194);
+    color: white;
+}
+table{
+    margin-top: 200px;
+}
+
+.btnEdit{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+
+}
+
+.btnDelete{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+
+}
+.btnDelete:hover{
+    font-size: 18px;
+}
+
+.btnEdit:hover{
+    font-size: 18px;
+}
