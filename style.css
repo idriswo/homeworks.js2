@@ -57,3 +57,7 @@ table{
 .btnEdit:hover{
     font-size: 18px;
 }
+
+.openDialog:hover{
+    padding: 9px 17px;
+}
