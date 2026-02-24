@@ -1,0 +1,33 @@
+th,td{
+    border: 1px solid gray;
+    padding: 20px ;
+    text-align: start;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.dibSA{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.search{
+    padding: 13px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid gray;
+}
+.btnOpen{
+    padding: 12px 20px;
+    background-color: blue;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.h11{
+    padding: 20px;
+    font-size: 40px;
+}

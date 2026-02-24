@@ -7,6 +7,33 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="./api.js"></script>
+    <h1 class="h11">Product list </h1>
+    <div class="dibSA">
+        <input type="search" name="search" class="search" placeholder="🔍 Search ">
+        <button class="btnOpen">➕ Add Product</button>
+    </div>
+    <dialog class="addDialog">
+        <h2>Registration !</h2>
+        <form action="" class="addForm">
+            <input type="text" name="name" id="">
+            <input type="text" name="age" id="">
+            <input type="text" name="job" id="">
+            <button type="submit" class="btnClose">add</button>
+        </form>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Job</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+        </tbody>
+    </table>
+    <script type="module" src="./api.js"></script>
 </body>
 </html>
