@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="div1">
+        <div>
+            <h2>Members List</h2>
+            <p>See information about all members</p>
+        </div>
+        <div>
+            <button class="wiew">WIEW ALL</button>
+            <button class="addUser">🫂 ADD MEMBER</button>
+        </div>
+    </div>
+    <div class="div1">
+        <select class="select" name="" id="">
+            <option value="">all</option>
+            <option value="">Monitored</option>
+            <option value="">Unmonitored</option>
+        </select>
+        <input class="search" type="search" name="search" id="" placeholder="Search ">
+    </div>
+
+
+    <dialog class="addDialog">
+        <h2>Registration !</h2>
+        <form action="" class="addForm">
+            <input class="inp1" type="text" name="image" id="" placeholder="image..." required>
+            <input class="inp1" type="text" name="name" id="" placeholder="Name..." required>
+            <input class="inp1" type="text" name="Categories" id="" placeholder="Categories..." required>
+            <input class="inp1" type="text" name="employed" id="" placeholder="Employed..." required>
+            <select name="select" class="select1" id="" required>
+                <option value="true">ONLINE</option>
+                <option value="false">OFFLINE</option>
+            </select>
+            <button type="submit" class="">➕add</button>
+        </form>
+    </dialog>
+
+    <dialog class="editDialog">
+        <h2>Edit Users !</h2>
+        <form action="" class="editForm">
+            <input class="inp1" type="text" name="image" id="" placeholder="image...">
+            <input class="inp1" type="text" name="name" id="" placeholder="Name...">
+            <input class="inp1" type="text" name="Categories" id="" placeholder="Categories...">
+            <input class="inp1" type="text" name="employed" id="" placeholder="Employed...">
+            <select name="select" class="select1" id="">
+                <option style="background-color: green;"  value="true">ONLINE</option>
+                <option style="background-color: red;" value="false">OFFLINE</option>
+            </select>
+            <button type="submit" class="">➕add</button>
+        </form>
+    </dialog>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Member</th>
+                <th>Categories</th>
+                <th>Status</th>
+                <th>Employed</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+            
+        </tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./api.js"></script>
+</body>
+
+</html>
