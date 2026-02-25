@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="divSA">
+        <input type="search" name="search" class="search" placeholder="🔍 Search...">
+        <button class="openDialog">➕ Add User</button>
+    </div>
+    <dialog class="AddUser">
+        <form class="form">
+            <input type="text" name="name" id="" placeholder="Name...">
+            <input type="text" name="categories" id="" placeholder="categories...">
+            <input type="text" name="price" id="" placeholder="price...">
+            <select name="select" id="">
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+            <button type="submit" class="addForm">➕add</button>
+        </form>
+    </dialog>
+    <dialog class="EditUser">
+         <form class="editform">
+            <input type="text" name="name" id="" placeholder="Name...">
+            <input type="text" name="categories" id="" placeholder="categories...">
+            <input type="text" name="price" id="" placeholder="price...">
+            <select name="select" id="">
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+            <button type="submit" class="editForm">➕add</button>
+        </form>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>name</th>
+                <th>categories</th>
+                <th>price</th>
+                <th>status</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody class="box">
+        </tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./api.js"></script>
+</body>
+
+</html>

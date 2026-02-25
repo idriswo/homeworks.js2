@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "idrisjon",
+      "categories": "developer",
+      "price": "10$",
+      "status": "false"
+    },
+    {
+      "id": "7fc9",
+      "name": "as",
+      "categories": " j j",
+      "price": " hj",
+      "status": "true"
+    },
+    {
+      "id": "0997",
+      "name": "idris",
+      "categories": "developerer",
+      "price": "1000",
+      "status": "true"
+    }
+  ]
+}
