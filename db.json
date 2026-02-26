@@ -1,14 +1,6 @@
 {
   "data": [
     {
-      "id": "11",
-      "image": "https://avatars.githubusercontent.com/u/86650982",
-      "name": "Anika",
-      "Categories": "Coordinator",
-      "employed": "Coordinator",
-      "status": true
-    },
-    {
       "id": "12",
       "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/78.jpg",
       "name": "name",
@@ -21,14 +13,7 @@
       "image": "https://avatars.githubusercontent.com/u/5559123",
       "name": "idris",
       "Categories": "developer",
-      "employed": "22/03.09"
-    },
-    {
-      "id": "eebc",
-      "image": "https://avatars.githubusercontent.com/u/5559123",
-      "name": "idris",
-      "Categories": "developereqwe",
-      "employed": "developereqwe",
+      "employed": "22/03.09",
       "status": true
     }
   ]

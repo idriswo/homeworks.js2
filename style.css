@@ -1,57 +1,156 @@
 .div1 {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
   align-items: center;
-}
-.addUser {
-  background-color: black;
-  color: white;
-  padding: 12px 17px;
-  border: none;
-  border-radius: 10px;
-}
-.wiew {
-  padding: 12px 17px;
-  background-color: white;
-  color: black;
-  border: none;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-.search {
-  padding: 13px 20px;
-  font-size: 20px;
-  border: none;
-  border: 2px solid gray;
-  border-radius: 10px;
-  outline: none;
-}
-.select {
-  padding: 13px 20px;
-  border-radius: 10px;
-  font-size: 20px;
-}
-table {
-  border-collapse: collapse;
-  margin-top: 60px;
-  width: 100%;
-}
-th,
-td {
-  border: 1px solid gray;
-  padding: 14px 23px;
-  font-size: 19px;
-  text-align: start;
-}
-.img1{
-  width: 28px;
-  border-radius: 50%;
+  padding: 15px 25px;
+  background-color: #f5f6fa;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.inp1{
-  padding: 10px 20px;
+.addUser, .wiew {
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addUser {
+  background-color: #2f3640;
+  color: #fff;
   border: none;
-  border-radius: 10px;
-  border: 1px solid gray;
+}
+
+.addUser:hover {
+  background-color: #353b48;
+}
+
+.wiew {
+  background-color: #fff;
+  color: #2f3640;
+  border: 2px solid #2f3640;
+}
+
+.wiew:hover {
+  background-color: #2f3640;
+  color: #fff;
+}
+
+.search, .select {
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 1px solid #dcdde1;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search:focus, .select:focus {
+  border-color: #718093;
+  box-shadow: 0 0 5px rgba(113, 128, 147, 0.3);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #dcdde1;
+  font-size: 16px;
+}
+
+th {
+  background-color: #f1f2f6;
+  color: #2f3640;
+}
+
+td img.img1 {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+dialog h2 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #2f3640;
+}
+
+.inp1, .select1 {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #dcdde1;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.inp1:focus, .select1:focus {
+  border-color: #718093;
+  box-shadow: 0 0 5px rgba(113, 128, 147, 0.3);
+}
+
+.addForm button, .editForm button {
+  background-color: #2f3640;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.addForm button:hover, .editForm button:hover {
+  background-color: #353b48;
+}
+
+td button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 5px;
+  transition: all 0.2s ease;
+}
+
+td button:hover {
+  transform: scale(1.2);
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.status-online {
+  background-color: green; /* сабз */
+}
+
+.status-offline {
+  background-color: red; /* сурх */
 }
